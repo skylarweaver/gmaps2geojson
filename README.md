@@ -20,7 +20,7 @@ export GMAPS_KEY='YOUR API KEY HERE'
 *Will output all [long,lat] coordinates of geojson line
 >>> writer.save("example.geojson")
 ```
-or
+or combine all queries into an array and use `query_array`
 ```
 >>> import gmaps2geojson
 >>> writer = gmaps2geojson.Writer()
